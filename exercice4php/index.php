@@ -3,7 +3,8 @@
     date_default_timezone_set('Europe/Paris');
     include '../header.php';         // 11/10/12
 ?>
-<p><?= strftime('%A %d %B %Y, %H:%M');?></p>
+<p><?= time();?></p>
+<p><?= mktime(0,0,0,12,22,1978);?></p>
 
 <?php
     include '../footer.php';

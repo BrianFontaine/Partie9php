@@ -1,6 +1,6 @@
 <?php  
     setlocale(LC_TIME, 'fr_FR');
-    include '../header.php';         // 11/10/12
+    include '../header.php';         
 ?>
 <p><?= strftime('%A %d %B %Y');?></p>
 
